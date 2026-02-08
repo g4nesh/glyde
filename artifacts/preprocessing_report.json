@@ -1,0 +1,38 @@
+{
+  "inputs": {
+    "s1": "41598_2015_BFsrep15778_MOESM2_ESM.xls",
+    "s2": "41598_2015_BFsrep15778_MOESM3_ESM.xls",
+    "s3": "41598_2015_BFsrep15778_MOESM4_ESM.xls"
+  },
+  "dimensions": {
+    "s1_rows": 211,
+    "s2_rows": 936,
+    "s3_shape": [
+      211,
+      256
+    ]
+  },
+  "mapping": {
+    "mapped_columns": 256,
+    "total_s3_columns": 256,
+    "mapped_glycans_used": 107,
+    "mapping_mode": "positional_fallback"
+  },
+  "targets": {
+    "triples_total": 9844,
+    "viruses_after_filter": 92,
+    "glycans_after_filter": 107,
+    "missingness_threshold": 0.5,
+    "binder_threshold": 1.0,
+    "topk_fraction": 0.1,
+    "strong_threshold": 2.0
+  },
+  "structure_coverage": {
+    "parseable_glycans": 107,
+    "total_glycans": 107,
+    "parseable_fraction": 1.0
+  },
+  "warnings": [
+    "S3 columns and S2 glycans differ in size. Applied positional fallback mapping for first 256 columns (S3=256, S2=936)."
+  ]
+}
