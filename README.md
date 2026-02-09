@@ -1,4 +1,4 @@
-# GlycoLM Proposal Base
+# GLYDE Proposal Base
 
 ## Title
 A domain-aware, topology-biased glycan language model for viral receptor binding
