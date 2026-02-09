@@ -2,7 +2,7 @@
 
 
 def main() -> None:
-    title = "A domain-aware, topology-biased glycan language model for viral receptor binding"
+    title = "Glyde: A domain-aware, topology-biased glycan language model for viral glycan binding prediction"
     thesis = "Viral glycan binding is a high-impact, tractable domain for a structure-aware glycan language model."
 
     print("Research Proposal")
