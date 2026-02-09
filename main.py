@@ -1,5 +1,4 @@
-# checking if update git repo works
-# git pmo 
+# main code, placeholder for now before adding the actual encoder and training code. This will be the entry point for the project.
 
 def main() -> None:
     title = "Glyde: A domain-aware, topology-biased glycan language model for viral glycan binding prediction"
