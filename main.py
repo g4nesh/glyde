@@ -1,4 +1,3 @@
-"""Minimal starter script for the glycan LM proposal project."""
 
 
 def main() -> None:
